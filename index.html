@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta property="og:title" content="Mikhail Karnou">
+  <meta property="og:description"
+        content="Mikhail Karnou.I`m frontend developer.">
+  <meta property="fb:app_id" content="">
+  <meta property="og:url" content="https://www.ECMAScript.ninja/">
+  <meta property="og:image" content="/static/reboot-og.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ECMAScript.ninja">
+  <meta name="twitter:description"
+        content="...">
+  <meta name="twitter:image" content="/static/reboot-og.png">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+      <div id="result">
+        <div id="output-text">
+          <div id="history">
+            <p id="history-value">
+            </p>
+          </div>
+          <div id="output">
+            <p id="output-value">
+            </p>
+          </div>
+        </div>
+        <div id="output-microphone">
+						<span id="microphone">
+						</span>
+          <span class="tooltip">Operations are plus, minus, multiply, divide &amp; reminder
+						The user input format is number + operation + number<br><br>
+						Eg: 2 multiply 5 will be 2 &times 5
+						</span>
+        </div>
+      </div>
+      <div id="keyboard">
+        <button class="operator" id="clear">C</button>
+        <button class="operator" id="backspace">CE</button>
+        <button class="operator" id="%">%</button>
+        <button class="operator" id="/">&#247</button>
+        <button class="number" id="7">7</button>
+        <button class="number" id="8">8</button>
+        <button class="number" id="9">9</button>
+        <button class="operator" id="*">&times</button>
+        <button class="number" id="4">4</button>
+        <button class="number" id="5">5</button>
+        <button class="number" id="6">6</button>
+        <button class="operator" id="-">-</button>
+        <button class="number" id="1">1</button>
+        <button class="number" id="2">2</button>
+        <button class="number" id="3">3</button>
+        <button class="operator" id="+">+</button>
+        <button class="number" id="0">0</button>
+        <button class="operator equally" id="=">=</button>
+      </div>
+    </div>
+
+    <script src="common.js"></script>
+</body>
+</html>
